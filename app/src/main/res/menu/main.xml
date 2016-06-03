@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sally="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/listview"
+        android:title="listview"
+        sally:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/gridview"
+        android:title="gridview"
+        sally:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/hor_gridview"
+        android:title="hor_gridview"
+        sally:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/staggered"
+        android:title="staggeredgridview"
+        sally:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/add"
+        android:title="add"
+        sally:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/delete"
+        android:title="delete"
+        sally:showAsAction="ifRoom"></item>
+
+    </menu>
